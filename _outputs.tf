@@ -1,4 +1,4 @@
-output "name" {
+/* output "name" {
   value       = ""
   description = ""
-}
+} */
