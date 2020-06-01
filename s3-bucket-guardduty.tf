@@ -1,4 +1,4 @@
-resource aws_s3_bucket guardduty {
+resource aws_s3_bucket "guardduty" {
   bucket = "${var.org_name}-audit-guardduty"
   acl    = "private"
 
